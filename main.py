@@ -7,8 +7,6 @@ for nom in os.listdir(chemin_dossier): # Parcours du dossier et ajout des noms d
     if os.path.isdir(os.path.join(chemin_dossier, nom)):
         liste_dossiers.append(nom)
 
-print(liste_dossiers)
-
 def rename(liste):
     for i in range(len(liste)):
         chemin_dossier2 = "C:/Users/amich/OneDrive/Images/img/" + str(liste[i]) # Chemin du dossier contenant les images à renommer
