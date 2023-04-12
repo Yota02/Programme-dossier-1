@@ -1,6 +1,6 @@
 import os
 
-chemin_dossier = "C:/Users/amich/OneDrive/Images/img" # Chemin du dossier à parcourir
+chemin_dossier = "C:/Users/amich/OneDrive/Images" # Chemin du dossier à parcourir
 liste_dossiers = [nom for nom in os.listdir(chemin_dossier) if os.path.isdir(os.path.join(chemin_dossier, nom))] # Initialisation de la liste des dossiers
 
 for nom in os.listdir(chemin_dossier): # Parcours du dossier et ajout des noms des dossiers dans la liste
